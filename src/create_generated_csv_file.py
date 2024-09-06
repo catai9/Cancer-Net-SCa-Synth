@@ -1,4 +1,3 @@
-# Adapted from https://www.kaggle.com/code/xhlulu/training-mobilenet-v2-in-4-min
 import math
 import argparse
 
