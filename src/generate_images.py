@@ -2,7 +2,6 @@ import argparse
 import torch
 
 from diffusers import StableDiffusionPipeline
-from PIL import Image
 
 from time import perf_counter
 

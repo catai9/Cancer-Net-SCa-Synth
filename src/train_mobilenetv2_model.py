@@ -1,14 +1,10 @@
 # Adapted from https://www.kaggle.com/code/xhlulu/training-mobilenet-v2-in-4-min
 # with modifications for specific dataset, binary classification, and class imbalance.
 import argparse
-import json
 
 import numpy as np
 import pandas as pd
-import tensorflow as tf
-import keras
 
-from tensorflow import keras 
 from keras import layers, optimizers
 from keras.applications import MobileNetV2
 from keras.callbacks import ModelCheckpoint
